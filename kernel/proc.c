@@ -681,3 +681,5 @@ procdump(void)
     printf("\n");
   }
 }
+
+uint sys_call_count[23] = {0};

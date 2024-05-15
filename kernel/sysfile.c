@@ -509,8 +509,7 @@ sys_getcnt(void)
 {
   int i;
   argint(0, &i);
-  // TODO: Access sys_call_count[i]
-  return i;
+  return sys_call_count[i];
 }
 
 
