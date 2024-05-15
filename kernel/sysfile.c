@@ -503,3 +503,10 @@ sys_pipe(void)
   }
   return 0;
 }
+
+uint64
+sys_getcnt(void)
+{
+    return 42;
+}
+
