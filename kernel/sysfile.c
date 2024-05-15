@@ -507,6 +507,10 @@ sys_pipe(void)
 uint64
 sys_getcnt(void)
 {
-    return 42;
+  int i;
+  argint(0, &i);
+  // TODO: Access sys_call_count[i]
+  return i;
 }
+
 

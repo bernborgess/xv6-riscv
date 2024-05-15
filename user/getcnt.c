@@ -8,8 +8,7 @@ int main(int argc, char *argv[]) {
         exit(0);
     }
     int syscallId = atoi(argv[1]);
-    // TODO
-    int callTimes = getcnt(3);
+    int callTimes = getcnt(syscallId);
     printf("syscall %d has been called %d times\n",syscallId,callTimes);
     exit(0);
 }
